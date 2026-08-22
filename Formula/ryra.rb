@@ -2,28 +2,28 @@
 class Ryra < Formula
   desc "Rich client for herdr, the terminal workspace manager for AI coding agents"
   homepage "https://ryra.dev"
-  version "0.1.1"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://pkg.ryra.dev/bin/ryra-aarch64-apple-darwin.tar.gz"
-      sha256 "9e6cf73f95c05d18b114a74d4031a8f0e872bae37385805953294963805e761b"
+      sha256 "8f895bd750e0282c7430e449f5aaf6b80d6a4076224d9d160d512838df87bae0"
     end
     on_intel do
       url "https://pkg.ryra.dev/bin/ryra-x86_64-apple-darwin.tar.gz"
-      sha256 "2af08ae8a26eac365333009a5cb19e9a71f9aabac91317d02da369c64a2dcb20"
+      sha256 "2a76be16e873cf2e7d51b7192900184f44eb5b506ca86ee6c5edbd91ea572f9b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://pkg.ryra.dev/bin/ryra-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "86ee4b7a2daea1230c8e6185231e3cd5980335c698c1c55b913b32c8ecbfc7ff"
+      sha256 "cd609676ce9db8780c818bd3abcb743433c685e8ecfa40ba09fe72e5f7615c7e"
     end
     on_intel do
       url "https://pkg.ryra.dev/bin/ryra-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "13527b1a35d13f3b20154085f2af19c45e0acbc10da77e5b499d9106c151c6c6"
+      sha256 "f8403cda7020e8f38cac1180d79c47dd37ed5a4eb5d35a89fb117e1841211434"
     end
   end
 
