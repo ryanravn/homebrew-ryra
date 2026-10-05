@@ -1,21 +1,21 @@
 class Ryra < Formula
   desc "Manage machines, secrets, deployments and agent workspaces"
   homepage "https://ryra.dev"
-  version "0.1.46"
+  version "0.1.47"
   # Proprietary software. Copyright (c) Erlend Ravn Ryan. All rights reserved.
   on_macos do
     depends_on arch: :arm64
-    url "https://pkg.ryra.dev/bin/ryra-0.1.46-aarch64-apple-darwin.tar.gz"
-    sha256 "559ef85910c393bf7c44875dc572ba41f6b1b6ae41af195f9e5f1c9e8f4d9170"
+    url "https://pkg.ryra.dev/bin/ryra-0.1.47-aarch64-apple-darwin.tar.gz"
+    sha256 "0d85aaeacd68fadd2b990678c89bf2fdec115d66a4eacdf407c372a7cbb5b8f8"
   end
   on_linux do
     on_arm do
-      url "https://pkg.ryra.dev/bin/ryra-0.1.46-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "06ce893548851d242fe18c9d3f9e6f392919f62f84190fd57f48c9c1b4882406"
+      url "https://pkg.ryra.dev/bin/ryra-0.1.47-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b7b483c73eb36d3bc51a32b9573c2db23aa7b01f4b0941889e1903b1a0a0d2bc"
     end
     on_intel do
-      url "https://pkg.ryra.dev/bin/ryra-0.1.46-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "565ab25a6fc85ba820e98c7acbfb14e9376ff00b121c678257bd965a36408851"
+      url "https://pkg.ryra.dev/bin/ryra-0.1.47-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4e45a013b2b90c6f1f3aa2a78e97785351af2515542460c496936b0f1b68ad9b"
     end
   end
   def install
